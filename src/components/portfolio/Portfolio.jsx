@@ -14,17 +14,19 @@ const Portfolio = () => {
             <img src={IMG1} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
-          <a href="https://github.com/ZBerkley88" className="btn">
-            GitHub
-          </a>
-          <a
-            href="https://github.com/ZBerkley88"
-            className="btn btn-primary"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Live Demo
-          </a>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/ZBerkley88" className="btn">
+              GitHub
+            </a>
+            <a
+              href="https://github.com/ZBerkley88"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live Demo
+            </a>
+          </div>
         </article>
 
         <article className="portfolio__item">
@@ -32,17 +34,19 @@ const Portfolio = () => {
             <img src={IMG1} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
-          <a href="https://github.com/ZBerkley88" className="btn">
-            GitHub
-          </a>
-          <a
-            href="https://github.com/ZBerkley88"
-            className="btn btn-primary"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Live Demo
-          </a>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/ZBerkley88" className="btn">
+              GitHub
+            </a>
+            <a
+              href="https://github.com/ZBerkley88"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live Demo
+            </a>
+          </div>
         </article>
 
         <article className="portfolio__item">
@@ -50,17 +54,19 @@ const Portfolio = () => {
             <img src={IMG1} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
-          <a href="https://github.com/ZBerkley88" className="btn">
-            GitHub
-          </a>
-          <a
-            href="https://github.com/ZBerkley88"
-            className="btn btn-primary"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Live Demo
-          </a>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/ZBerkley88" className="btn">
+              GitHub
+            </a>
+            <a
+              href="https://github.com/ZBerkley88"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live Demo
+            </a>
+          </div>
         </article>
       </div>
     </section>
