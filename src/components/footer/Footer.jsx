@@ -3,9 +3,9 @@ import './footer.css'
 
 const Footer = () => {
   return (
-    <div>
+    <section id="footer">
       Footer
-    </div>
+    </section>
   )
 }
 
