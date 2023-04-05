@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-//  import ME from '../../assets/about-me.jpg'
+ import ME from '../../assets/about-me.jpg'
 
 import { FaUserGraduate } from "react-icons/fa"
 
@@ -11,7 +11,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            {/* <img src={ME} alt="About image" /> */}
+            <img src={ME} alt="Picture of Zachary Berkley" />
           </div>
         </div>
 
@@ -33,6 +33,12 @@ const About = () => {
               <small>7+ years teaching</small>
             </article>
           </div>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate consectetur, provident libero, ipsa non vel consequatur dignissimos officiis a, exercitationem dolore commodi beatae id quas. Est similique et aliquid quis.
+          </p>
+
+          <a href="#contact" className="btn btn-primary">Get in touch</a>
         </div>
       </div>
     </section>
