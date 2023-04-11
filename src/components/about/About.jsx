@@ -1,44 +1,54 @@
 import React from "react";
 import "./about.css";
- import ME from '../../assets/about-me.jpg'
+import ME from "../../assets/about-me.jpg";
 
-import { FaUserGraduate } from "react-icons/fa"
+import { FaUserGraduate } from "react-icons/fa";
 
 const About = () => {
   return (
     <section id="about">
-      <h2>About</h2>
-      <div className="container about__container">
-        <div className="about__me">
-          <div className="about__me-image">
+      <h2>About Me</h2>
+      <div className="container about_container">
+        <div className="about_me">
+          <div className="about_me-image">
             <img src={ME} alt="Zachary Berkley" />
           </div>
         </div>
 
-        <div className="about__content">
-          <div className="about__cards">
-            <article className="about__card">
-              <FaUserGraduate className="about__icon"/>
+        <div className="about_content">
+          <div className="about_cards">
+            <article className="about_card">
+              <FaUserGraduate className="about_icon" />
               <h5>Experience</h5>
-              <small>7+ years teaching</small>
+              <small>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa,
+                atque? Esse voluptates ab officiis aut?
+              </small>
             </article>
-            <article className="about__card">
-              <FaUserGraduate className="about__icon"/>
+            <article className="about_card">
+              <FaUserGraduate className="about_icon" />
               <h5>Experience</h5>
-              <small>7+ years teaching</small>
+              <small>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa,
+                atque? Esse voluptates ab officiis aut?
+              </small>
             </article>
-            <article className="about__card">
-              <FaUserGraduate className="about__icon"/>
+            <article className="about_card">
+              <FaUserGraduate className="about_icon" />
               <h5>Experience</h5>
-              <small>7+ years teaching</small>
+              <small>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa,
+                atque? Esse voluptates ab officiis aut?
+              </small>
             </article>
           </div>
 
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate consectetur, provident libero, ipsa non vel consequatur dignissimos officiis a, exercitationem dolore commodi beatae id quas. Est similique et aliquid quis.
-          </p>
-
-          <a href="#contact" className="btn btn-primary">Get in touch</a>
+          <h5 className="text-light blurb">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+            consectetur, provident libero, ipsa non vel consequatur dignissimos
+            officiis a, exercitationem dolore commodi beatae id quas. Est
+            similique et aliquid quis.
+          </h5>
         </div>
       </div>
     </section>
