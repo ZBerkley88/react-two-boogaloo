@@ -1,16 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Source+Sans+Pro:ital,wght@0,400;1,600&display=swap');
 
 :root {
   --background: #1e1e1e;
-  --not-so-dark: #3a3a3a;
+  --not-so-dark: #3A3A3A;
   --even-less-dark: #696969;
-  --primary: #ffffff;
-  --secondary: #5647879b;
-  --grey: #e3e3e3;
-  --red: #dd4c4c;
-  --purple: #cb81f9 ;
-  --green: #57ae6e;
-  --orange: #F3B71A;
+  --is-it-even-dark: #D1D1D1;
+  --grey: #F6F7F8;
+
+  --primary: #FFFFFF;
+  --secondary: #5647879B;
+  
+  --slate: #ccd6f6;
+  --slate-transparent: #ccd6f615;
+  --red: #DD4C4C;
+  --green: #64ffda;
+  --green-transparent: #45da8a71;
+  --blue: #aeedff;
+  --purple: #CB81F9 ;
+  --orange: #F8B133;
+  --orange-transparent: #f8b03311;
+  --tan: #FFEFD6;
 
     --transition: all 400ms ease;
 
@@ -38,7 +48,7 @@ html {
 }
 
 body {
-  font-family: "Montserrat Alternates", sans-serif;
+  font-family: "Montserrat", sans-serif;
   background: var(--background);
   color: var(--primary);
   line-height: 1.7;
@@ -80,7 +90,7 @@ section > h2 {
 }
 
 .text-light {
-    color: var(--grey)
+    color: var(--is-it-even-dark)
 }
 
 a {
@@ -97,13 +107,13 @@ a:hover {
     display: inline-block;
     color: var(--primary);
     padding: 0.75rem 1.2rem;
-    border-radius: 0.4rem;
     border: 1px solid var(--primary);
     transition: var(--transition);
+    font-weight: 900;
 }
 
 .btn:hover {
-    background-color: var(--purple);
+    background-color: var(--slate);
     color: var(--background);
     border-color: transparent;
 }

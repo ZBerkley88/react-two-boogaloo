@@ -5,7 +5,7 @@
 }
 
 .experience__container > div {
-  background-color: var(--secondary);
+  background-color: var(--slate-transparent);
   padding: 2.4rem 5rem;
   border: 1px solid transparent;
   transition: var(--transition);
@@ -13,8 +13,9 @@
 
 .experience__container > div:hover {
   background: transparent;
-  border-color: var(--secondary);
+  border-color: transparent;
   cursor: default;
+  border: 1px solid var(--slate);
 }
 
 .experience__container > div h3 {
@@ -36,7 +37,7 @@
 
 .experience__details-icon {
   margin-top: 6px;
-  color: var(--purple);
+  color: var(--slate);
 }
 
 /* ====================== MEDIA QUERIES (TABLETS) ======================*/

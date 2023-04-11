@@ -1,6 +1,8 @@
 import React from "react";
 import "./portfolio.css";
 import IMG1 from "../../assets/portfolio-placeholder.jpg";
+import { FiGithub } from "react-icons/fi";
+import { FiExternalLink } from "react-icons/fi";
 
 const Portfolio = () => {
   return (
@@ -8,63 +10,72 @@ const Portfolio = () => {
       <h5>My Work</h5>
       <h2>Portfolio</h2>
 
-      <div className="container portfolio__container">
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
+      <div className="container portfolio_container">
+        <article className="portfolio_item">
+          <div className="portfolio_item-image">
             <img src={IMG1} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com/ZBerkley88" className="btn">
-              GitHub
-            </a>
+          <div className="portfolio_item-cta">
             <a
               href="https://github.com/ZBerkley88"
-              className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
             >
-              Live Demo
+              <FiGithub className="portfolio_item-icon" />
+            </a>
+            <a
+              href="https://github.com/ZBerkley88"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FiExternalLink className="portfolio_item-icon" />
             </a>
           </div>
         </article>
 
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
+        <article className="portfolio_item">
+          <div className="portfolio_item-image">
             <img src={IMG1} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com/ZBerkley88" className="btn">
-              GitHub
-            </a>
-            <a
+          <div className="portfolio_item-cta">
+          <a
               href="https://github.com/ZBerkley88"
-              className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
             >
-              Live Demo
+              <FiGithub className="portfolio_item-icon" />
+            </a>
+            <a
+              href="https://github.com/ZBerkley88"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FiExternalLink className="portfolio_item-icon" />
             </a>
           </div>
         </article>
 
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
+        <article className="portfolio_item">
+          <div className="portfolio_item-image">
             <img src={IMG1} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com/ZBerkley88" className="btn">
-              GitHub
-            </a>
-            <a
+          <div className="portfolio_item-cta">
+          <a
               href="https://github.com/ZBerkley88"
-              className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
             >
-              Live Demo
+              <FiGithub className="portfolio_item-icon" />
+            </a>
+            <a
+              href="https://github.com/ZBerkley88"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FiExternalLink className="portfolio_item-icon" />
             </a>
           </div>
         </article>

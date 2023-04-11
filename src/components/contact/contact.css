@@ -1,11 +1,11 @@
-.container.contact__container {
+.container.contact_container {
   width: 58%;
   display: grid;
   grid-template-columns: 30% 58%;
   gap: 12%;
 }
 
-.contact__options {
+.contact_options {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
@@ -13,25 +13,25 @@
 
 /* ====================== CONTACT OPTION CARDS ======================*/
 
-.contact__option {
-  background: var(--secondary);
+.contact_option {
+  background: var(--slate-transparent);
   padding: 1.2rem;
   text-align: center;
   border: 1px solid transparent;
   transition: var(--transition);
 }
 
-.contact__option:hover {
+.contact_option:hover {
   background: transparent;
-  border-color: var(--secondary);
+  border-color: var(--slate);
 }
 
-.contact__option-icon {
+.contact_option-icon {
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
 }
 
-.contact__option a {
+.contact_option a {
   margin-top: 0.7rem;
   display: inline-block;
   font-size: 0.8rem;
@@ -50,7 +50,7 @@ textarea {
   width: 100%;
   padding: 1.5rem;
   background: transparent;
-  border: 2px solid var(--secondary);
+  border: 2px solid var(--slate);
   resize: none;
   color: var(--primary);
 }
@@ -58,7 +58,7 @@ textarea {
 /* ====================== MEDIA QUERIES (TABLETS) ======================*/
 
 @media screen and (max-width: 1024px) {
-  .container.contact__container {
+  .container.contact_container {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
@@ -67,7 +67,7 @@ textarea {
 /* ====================== MEDIA QUERIES (PHONES) ======================*/
 
 @media screen and (max-width: 600px) {
-  .container.contact__container {
+  .container.contact_container {
     width: var(--container-width-sm);
   }
 }
