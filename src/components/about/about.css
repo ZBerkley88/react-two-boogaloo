@@ -51,11 +51,11 @@
 }
 
 .about_card h5 {
-  font-size: 0.95rem;
+  font-size: 1.1rem;
 }
 
 .about_card small {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   color: var(--primary);
 }
 
