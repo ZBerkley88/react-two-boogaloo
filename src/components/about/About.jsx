@@ -2,7 +2,8 @@ import React from "react";
 import "./about.css";
 import ME from "../../assets/about-me.jpg";
 
-import { FaUserGraduate } from "react-icons/fa";
+import { FaUserGraduate, FaPenFancy, FaChalkboardTeacher } from "react-icons/fa";
+
 
 const About = () => {
   return (
@@ -18,27 +19,24 @@ const About = () => {
         <div className="about_content">
           <div className="about_cards">
             <article className="about_card">
-              <FaUserGraduate className="about_icon" />
-              <h5>Experience</h5>
+              <FaChalkboardTeacher className="about_icon" />
+              <h5>Educator</h5>
               <small>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa,
-                atque? Esse voluptates ab officiis aut?
+                10+ years college and middle school teaching experience
+              </small>
+            </article>
+            <article className="about_card">
+              <FaPenFancy className="about_icon" />
+              <h5>Editor</h5>
+              <small>
+                Investigative report writer for a private detective agency
               </small>
             </article>
             <article className="about_card">
               <FaUserGraduate className="about_icon" />
               <h5>Experience</h5>
               <small>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa,
-                atque? Esse voluptates ab officiis aut?
-              </small>
-            </article>
-            <article className="about_card">
-              <FaUserGraduate className="about_icon" />
-              <h5>Experience</h5>
-              <small>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa,
-                atque? Esse voluptates ab officiis aut?
+                Full Stack Web Developer Boot Camp Graduate
               </small>
             </article>
           </div>
