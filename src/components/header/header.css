@@ -22,6 +22,7 @@ header {
 /* ====================== SOCIAL MEDIA LINKS ======================*/
 
 .header__socials {
+  font-size: 1.2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -31,7 +32,16 @@ header {
   bottom: 3rem;
 }
 
-.header__socials::after {
+.header_icon {
+  transition: var(--transition);
+}
+
+.header_icon:hover {
+  transform: translateY(-5px);
+  color: var(--slate);
+}
+
+.header__socials:after {
   content: "";
   width: 1px;
   height: 2rem;
@@ -51,6 +61,17 @@ header {
   /* border-radius: 12rem 12rem 0 0; */
   overflow: hidden;
   /* padding: 5rem 1.5rem 1.5rem 1.5rem; */
+}
+
+.offset {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  /* background: transparent;
+  border: 2px solid black;
+  top: -20px;
+  left: -10px;
+  z-index: 10; */
 }
 
 /* ====================== SCROLL BUTTON ======================*/

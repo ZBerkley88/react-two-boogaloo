@@ -11,17 +11,17 @@ const Socials = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <BsLinkedin />
+        <BsLinkedin className="header_icon" />
       </a>
       <a href="https://github.com/ZBerkley88" target="_blank" rel="noreferrer">
-        <BsGithub />
+        <BsGithub className="header_icon" />
       </a>
       <a
         href="https://www.instagram.com/i.saw.these.things/"
         target="_blank"
         rel="noreferrer"
       >
-        <BsInstagram />
+        <BsInstagram className="header_icon" />
       </a>
     </div>
   );
