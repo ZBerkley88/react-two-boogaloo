@@ -42,10 +42,9 @@ const About = () => {
           </div>
 
           <h5 className="text-light blurb">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
-            consectetur, provident libero, ipsa non vel consequatur dignissimos
-            officiis a, exercitationem dolore commodi beatae id quas. Est
-            similique et aliquid quis.
+            I'm a former English teacher making a career pivot to web development. Recently, I graduated from the Full Stack Web Development program at UNC-Chapel Hill. Check out some of my projects below!
+            <br />
+            
           </h5>
         </div>
       </div>

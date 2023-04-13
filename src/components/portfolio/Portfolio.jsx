@@ -7,7 +7,6 @@ import { FiExternalLink } from "react-icons/fi";
 const Portfolio = () => {
   return (
     <section id="portfolio">
-      <h5>My Work</h5>
       <h2>Portfolio</h2>
 
       <div className="container portfolio_container">

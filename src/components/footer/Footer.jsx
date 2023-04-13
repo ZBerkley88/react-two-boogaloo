@@ -27,22 +27,34 @@ const Footer = () => {
         </li>
       </ul>
 
-      <div className="footer__socials">
-        <a href="#https://www.linkedin.com/in/zachary-berkley-aa5716240/">
+      <div className="footer_socials">
+        <a
+          href="https://www.linkedin.com/in/zachary-berkley-aa5716240/"
+          target="_blank"
+          rel="noreferrer"
+        >
           {" "}
-          <BsLinkedin />
+          <BsLinkedin className="footer_icon" />
         </a>
-        <a href="#https://github.com/ZBerkley88">
+        <a
+          href="https://github.com/ZBerkley88"
+          target="_blank"
+          rel="noreferrer"
+        >
           {" "}
           <BsGithub />
         </a>
-        <a href="#https://www.instagram.com/i.saw.these.things/">
+        <a
+          href="https://www.instagram.com/i.saw.these.things/"
+          target="_blank"
+          rel="noreferrer"
+        >
           {" "}
           <BsInstagram />
         </a>
       </div>
 
-      <div className="footer__copyright">
+      <div className="footer_copyright">
         <small>&copy; Zachary Berkley. 2023.</small>
       </div>
     </footer>
