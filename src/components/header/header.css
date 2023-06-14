@@ -1,5 +1,5 @@
 header {
-  height: 100vh;
+  /* height: 100vh; */
   padding-top: 7rem;
   overflow: hidden;
 }
@@ -29,7 +29,7 @@ header {
   gap: 0.8rem;
   position: absolute;
   left: 0;
-  bottom: 3rem;
+  top: 2rem;
 }
 
 .header_icon {
@@ -37,16 +37,15 @@ header {
 }
 
 .header_icon:hover {
-  transform: translateY(-5px);
   color: var(--slate);
 }
 
-.header__socials:after {
+/* .header__socials:after {
   content: "";
   width: 1px;
   height: 2rem;
   background-color: var(--primary);
-}
+} */
 
 /* ====================== PROFILE PIC ======================*/
 
@@ -79,7 +78,7 @@ header {
 .scroll__down {
   position: absolute;
   right: -2.3rem;
-  bottom: 5rem;
+  top: 5rem;
   transform: rotate(90deg);
   font-weight: 300;
   font-size: 0.9rem;
@@ -88,17 +87,17 @@ header {
 /* ====================== MEDIA QUERIES (TABLETS) ======================*/
 
 @media screen and (max-width: 1024px) {
-  header {
+  /* header {
     height: 90vh;
-  }
+  } */
 }
 
 /* ====================== MEDIA QUERIES (PHONES) ======================*/
 
 @media screen and (max-width: 600px) {
-  header {
+  /* header {
     height: 100vh;
-  }
+  } */
 
   .header__socials,
   .scroll__down {

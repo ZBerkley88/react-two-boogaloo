@@ -20,6 +20,11 @@
   color: var(--slate)
 }
 
+.portfolio_item p {
+  font-size: 0.9rem;
+  margin: 1.2rem 0 2rem;
+}
+
 .portfolio_item-cta {
   display: flex;
   gap: 1rem;

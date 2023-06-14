@@ -2,6 +2,7 @@ import React from "react";
 import "./experience.css";
 import { AiFillHtml5 } from "react-icons/ai";
 import { FaCss3Alt } from "react-icons/fa";
+import { FaSass } from "react-icons/fa"
 import { IoLogoJavascript } from "react-icons/io";
 import { FaBootstrap } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
@@ -30,6 +31,13 @@ const Experience = () => {
               <FaCss3Alt className="experience__details-icon" />
               <div>
                 <h4>CSS</h4>
+              </div>
+            </article>
+
+            <article className="experience__details">
+              <FaSass className="experience__details-icon" />
+              <div>
+                <h4>Sass</h4>
               </div>
             </article>
 
@@ -83,6 +91,9 @@ const Experience = () => {
             </article>
           </div>
         </div>
+
+        {/* ADD DATABASE SKILLS - TEACHING SKILLS */}
+      
       </div>
     </section>
   );
